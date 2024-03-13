@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid;
+  background-color: azure;
+}
+.logo img {
+  width: 80px;
+}
+
+.nav-items {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.nav-items a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.navbar button {
+  height: 35px;
+  width: 80px;
+  border-radius: 25px;
+  border: none;
+  background-color: deeppink;
+  font-size: 15px;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: aqua;
+  color: black;
+}
+.home-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+.home-items h2 {
+  font-size: 5rem;
+}
+.home-items span {
+  font-size: 7rem;
+  font-family: sans-serif;
+  color: darkviolet;
+}
+.home-items p {
+  font-size: 1.5rem;
+}
+.home-items button {
+  height: 40px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  background-color: chartreuse;
+  font-size: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.home-items button:hover {
+  background-color: blue;
+  color: white;
+}
+.hero-section {
+  height: 90vh;
+}
+
+.hero-section h1 {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.hero-section p {
+  font-size: 25px;
+  padding-left: 50px;
+}
+
+.hero-item {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+.hero-item img {
+  border-radius: 165px;
+  width: 45vw;
+}
+.hero-box {
+  width: 630px;
+  background: azure;
+  box-shadow: 0px 0px 20px 10px darkgray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.hero-box h2 {
+  font-size: 30px;
+  padding-left: 50px;
+}
+.section-container {
+  display: flex;
+  margin-top: 210px;
+  justify-content: space-evenly;
+}
+.b-box {
+  width: 45%;
+  height: 70vh;
+  background: azure;
+  box-shadow: 0px 0px 20px 10px darkgray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.b-box h1 {
+  padding-left: 50px;
+}
+.b-box p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+.s-box {
+  width: 45%;
+  height: 70vh;
+  background: azure;
+  box-shadow: 0px 0px 20px 10px darkgray;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.s-box h1 {
+  padding-left: 50px;
+}
+.s-box p {
+  font-size: 20px;
+  padding-left: 50px;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+  gap: 10px;
+}
+.btns button {
+  height: 35px;
+  width: 85px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff0eff;
+  cursor: pointer;
+}
+.btns button:hover {
+  background: green;
+  color: white;
+}
+#learn-btn {
+  height: 35px;
+  width: 85px;
+  border-radius: 25px;
+  border: none;
+  background-color: chocolate;
+  cursor: pointer;
+}
+#learn-btn:hover {
+  background-color: darkcyan;
+  color: white;
+}
+footer {
+  height: 60px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
+}
